@@ -1,2 +1,109 @@
 [2024-11-29 23:33:41,325: INFO: main:welcome to our custome log]
 [2024-11-29 23:34:57,680: INFO: main:welcome to our custome log]
+[2024-12-06 22:14:32,167: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-06 22:14:32,169: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-06 22:14:32,169: INFO: common:created dir at : artifacts]
+[2024-12-06 22:14:32,176: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-06 22:14:59,524: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-06 22:14:59,527: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-06 22:14:59,531: INFO: common:created dir at : artifacts]
+[2024-12-06 22:14:59,532: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-06 22:14:59,535: INFO: 3012995611:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-06 22:27:35,563: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-06 22:27:35,571: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-06 22:27:35,575: INFO: common:created dir at : artifacts]
+[2024-12-06 22:27:35,580: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-06 22:27:35,580: INFO: 3012995611:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 01:17:40,704: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 01:17:40,708: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 01:17:40,709: INFO: common:created dir at : artifacts]
+[2024-12-07 01:17:40,711: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-07 01:17:40,715: INFO: 3012995611:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 01:18:46,998: INFO: 3012995611:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 11:12:57,681: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 11:12:57,681: ERROR: main:name 'obj' is not defined]
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 9, in <module>
+    obj.main()
+    ^^^
+NameError: name 'obj' is not defined
+[2024-12-07 11:13:43,572: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 11:13:43,572: ERROR: main:name 'obj' is not defined]
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 9, in <module>
+    obj.main()
+    ^^^
+NameError: name 'obj' is not defined
+[2024-12-07 11:15:28,191: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 11:15:28,192: ERROR: main:name 'obj' is not defined]
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 9, in <module>
+    obj.main()
+    ^^^
+NameError: name 'obj' is not defined
+[2024-12-07 11:16:34,795: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 11:16:34,795: ERROR: main:name 'obj' is not defined]
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 9, in <module>
+    obj.main()
+    ^^^
+NameError: name 'obj' is not defined
+[2024-12-07 11:17:25,854: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 11:17:25,860: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 11:17:25,860: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 11:17:25,860: INFO: common:created dir at : artifacts]
+[2024-12-07 11:17:25,860: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-07 11:17:25,866: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 11:20:12,281: ERROR: main:('Connection broken: IncompleteRead(76705916 bytes read, 400095228 more expected)', IncompleteRead(76705916 bytes read, 400095228 more expected))]
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 748, in _error_catcher
+    yield
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 894, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(76705916 bytes read, 400095228 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 1060, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 977, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 872, in _raw_read
+    with self._error_catcher():
+  File "D:\AI\ML\envs\kidney\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 772, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(76705916 bytes read, 400095228 more expected)', IncompleteRead(76705916 bytes read, 400095228 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 9, in <module>
+    obj.main()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_01_data_ingestion.py", line 22, in main
+    raise e
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.download_file()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\data_ingestion.py", line 30, in download_file
+    raise e
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\data_ingestion.py", line 25, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(76705916 bytes read, 400095228 more expected)', IncompleteRead(76705916 bytes read, 400095228 more expected))
+[2024-12-07 11:21:27,807: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 11:21:27,809: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 11:21:27,809: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 11:21:27,809: INFO: common:created dir at : artifacts]
+[2024-12-07 11:21:27,809: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-07 11:21:27,809: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 11:22:08,005: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 11:22:11,430: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
