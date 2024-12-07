@@ -107,3 +107,99 @@ requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(76
 [2024-12-07 11:21:27,809: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2024-12-07 11:22:08,005: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2024-12-07 11:22:11,430: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-07 18:22:21,644: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 18:22:21,644: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 18:22:21,654: INFO: common:created dir at : artifacts]
+[2024-12-07 18:22:49,955: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 18:22:49,958: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 18:22:49,960: INFO: common:created dir at : artifacts]
+[2024-12-07 18:22:49,974: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 18:24:54,237: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 18:24:54,242: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 18:24:54,245: INFO: common:created dir at : artifacts]
+[2024-12-07 18:24:54,245: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 18:25:49,227: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 18:25:49,232: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 18:25:49,234: INFO: common:created dir at : artifacts]
+[2024-12-07 18:25:49,234: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 18:26:05,214: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 18:26:05,214: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 18:26:05,221: INFO: common:created dir at : artifacts]
+[2024-12-07 18:26:05,221: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 18:26:05,742: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-07 18:28:56,218: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 18:28:56,224: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 18:28:56,224: INFO: common:created dir at : artifacts]
+[2024-12-07 18:28:56,227: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 18:28:56,878: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-07 19:16:42,150: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 19:16:42,166: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 19:16:42,174: INFO: common:created dir at : artifacts]
+[2024-12-07 19:16:42,178: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 19:16:43,811: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-07 19:32:25,355: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 19:32:25,361: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 19:32:25,364: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 19:32:25,366: INFO: common:created dir at : artifacts]
+[2024-12-07 19:32:25,366: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-07 19:32:25,366: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 19:33:55,276: ERROR: main:('Connection broken: IncompleteRead(355434398 bytes read, 121366746 more expected)', IncompleteRead(355434398 bytes read, 121366746 more expected))]
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 748, in _error_catcher
+    yield
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 894, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(355434398 bytes read, 121366746 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 1060, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 977, in read
+    data = self._raw_read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 872, in _raw_read
+    with self._error_catcher():
+  File "D:\AI\ML\envs\kidney\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\urllib3\response.py", line 772, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(355434398 bytes read, 121366746 more expected)', IncompleteRead(355434398 bytes read, 121366746 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 14, in <module>
+    obj.main()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_01_data_ingestion.py", line 22, in main
+    raise e
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.download_file()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\data_ingestion.py", line 30, in download_file
+    raise e
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\data_ingestion.py", line 25, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(355434398 bytes read, 121366746 more expected)', IncompleteRead(355434398 bytes read, 121366746 more expected))
+[2024-12-07 19:39:29,728: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-07 19:39:29,732: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 19:39:29,734: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 19:39:29,734: INFO: common:created dir at : artifacts]
+[2024-12-07 19:39:29,736: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-07 19:39:29,736: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 19:40:46,880: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-07 19:40:50,978: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-07 19:40:50,980: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-07 19:40:50,982: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-07 19:40:50,982: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-07 19:40:50,988: INFO: common:created dir at : artifacts]
+[2024-12-07 19:40:50,990: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-07 19:40:52,050: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-07 19:40:52,900: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
