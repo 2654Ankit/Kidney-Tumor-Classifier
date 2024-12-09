@@ -224,3 +224,397 @@ requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(35
 [2024-12-08 13:09:52,184: INFO: common:created dir at : artifacts]
 [2024-12-08 13:09:52,184: INFO: common:created dir at : artifacts\training]
 [2024-12-08 13:26:28,372: INFO: main:>>stage Training completed <<<<<<<<<]
+[2024-12-08 18:30:28,697: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:30:28,732: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:30:28,741: INFO: common:created dir at : artifacts]
+[2024-12-08 18:31:33,910: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:31:33,919: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:31:33,932: INFO: common:created dir at : artifacts]
+[2024-12-08 18:31:54,836: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:31:54,840: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:31:54,844: INFO: common:created dir at : artifacts]
+[2024-12-08 18:32:53,499: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:32:53,506: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:32:53,506: INFO: common:created dir at : artifacts]
+[2024-12-08 18:33:55,661: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:33:55,667: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:33:55,671: INFO: common:created dir at : artifacts]
+[2024-12-08 18:35:58,945: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:35:58,946: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:35:58,946: INFO: common:created dir at : artifacts]
+[2024-12-08 18:38:11,176: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:38:11,182: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:38:11,184: INFO: common:created dir at : artifacts]
+[2024-12-08 18:38:37,173: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:38:37,173: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:38:37,181: INFO: common:created dir at : artifacts]
+[2024-12-08 18:44:18,149: INFO: common:json file is saved at score.json]
+[2024-12-08 18:46:23,522: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:46:23,531: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:46:23,535: INFO: common:created dir at : artifacts]
+[2024-12-08 18:50:13,231: INFO: common:json file is saved at score.json]
+[2024-12-08 18:54:21,022: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 18:54:21,030: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 18:54:21,033: INFO: common:created dir at : artifacts]
+[2024-12-08 18:59:50,513: INFO: common:json file is saved at score.json]
+[2024-12-08 19:04:01,882: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:04:01,893: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:04:01,898: INFO: common:created dir at : artifacts]
+[2024-12-08 19:04:30,107: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:04:30,114: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:04:30,123: INFO: common:created dir at : artifacts]
+[2024-12-08 19:15:26,702: INFO: common:json file is saved at score.json]
+[2024-12-08 19:15:39,576: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-12-08 19:15:42,163: INFO: builder_impl:Assets written to: C:\Users\ankit\AppData\Local\Temp\tmp2ncdi1s0\model\data\model\assets]
+[2024-12-08 19:24:25,753: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-08 19:24:25,753: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:24:25,753: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:24:25,753: INFO: common:created dir at : artifacts]
+[2024-12-08 19:24:25,753: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-08 19:24:25,753: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 19:25:42,968: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 19:25:45,406: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-08 19:25:45,406: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-08 19:25:45,406: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:25:45,406: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:25:45,406: INFO: common:created dir at : artifacts]
+[2024-12-08 19:25:45,406: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-08 19:25:46,249: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-08 19:25:46,518: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-08 19:25:46,518: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-08 19:25:46,518: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:25:46,534: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:25:46,536: INFO: common:created dir at : artifacts]
+[2024-12-08 19:25:46,537: INFO: common:created dir at : artifacts\training]
+[2024-12-08 19:28:38,600: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-08 19:28:38,600: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:28:38,600: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:28:38,609: INFO: common:created dir at : artifacts]
+[2024-12-08 19:28:38,609: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-08 19:28:38,611: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 19:29:44,800: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 19:29:47,378: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-08 19:29:47,378: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-08 19:29:47,378: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:29:47,387: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:29:47,387: INFO: common:created dir at : artifacts]
+[2024-12-08 19:29:47,387: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-08 19:29:48,307: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-08 19:29:48,735: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-08 19:29:48,735: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-08 19:29:48,735: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:29:48,735: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:29:48,735: INFO: common:created dir at : artifacts]
+[2024-12-08 19:29:48,735: INFO: common:created dir at : artifacts\training]
+[2024-12-08 19:37:19,606: INFO: main:>>stage Training completed <<<<<<<<<]
+[2024-12-08 19:37:19,606: INFO: main:>>>>>> stage Model evaluation started <<<<<<<]
+[2024-12-08 19:37:19,606: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:37:19,612: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:37:19,613: INFO: common:created dir at : artifacts]
+[2024-12-08 19:37:19,613: ERROR: main:'ConfigurationManager' object has no attribute 'get_evaluation_config']
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 59, in <module>
+    obj.main()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_04_model_evaluation.py", line 13, in main
+    eval_config = config.get_evaluation_config()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_evaluation_config'
+[2024-12-08 19:39:48,613: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-08 19:39:48,613: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:39:48,613: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:39:48,613: INFO: common:created dir at : artifacts]
+[2024-12-08 19:39:48,613: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-08 19:39:48,613: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 19:40:57,651: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 19:40:59,648: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-08 19:40:59,648: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-08 19:40:59,648: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:40:59,648: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:40:59,648: INFO: common:created dir at : artifacts]
+[2024-12-08 19:40:59,648: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-08 19:41:00,284: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-08 19:41:00,536: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-08 19:41:00,536: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-08 19:41:00,538: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:41:00,539: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:41:00,539: INFO: common:created dir at : artifacts]
+[2024-12-08 19:41:00,539: INFO: common:created dir at : artifacts\training]
+[2024-12-08 19:47:51,412: INFO: main:>>stage Training completed <<<<<<<<<]
+[2024-12-08 19:47:51,413: INFO: main:>>>>>> stage Model evaluation started <<<<<<<]
+[2024-12-08 19:47:51,416: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 19:47:51,419: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 19:47:51,420: INFO: common:created dir at : artifacts]
+[2024-12-08 19:49:54,121: INFO: common:json file is saved at score.json]
+[2024-12-08 19:49:55,548: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-12-08 19:49:56,049: INFO: builder_impl:Assets written to: C:\Users\ankit\AppData\Local\Temp\tmpr3y1d4jc\model\data\model\assets]
+[2024-12-08 19:50:16,725: ERROR: main:No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 59, in <module>
+    obj.main()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    evaluation.log_into_mlflow()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\model_evaluation.py", line 75, in log_into_mlflow
+    mlflow.keras.log_model(self.model,"model")
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-12-08 23:46:12,862: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-08 23:46:12,868: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 23:46:12,871: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 23:46:12,872: INFO: common:created dir at : artifacts]
+[2024-12-08 23:46:12,873: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-08 23:46:12,877: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 23:47:13,140: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-08 23:47:21,251: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-08 23:47:21,251: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-08 23:47:21,257: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 23:47:21,265: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 23:47:21,270: INFO: common:created dir at : artifacts]
+[2024-12-08 23:47:21,270: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-08 23:47:23,505: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-08 23:47:24,358: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-08 23:47:24,358: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-08 23:47:24,367: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-08 23:47:24,377: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-08 23:47:24,377: INFO: common:created dir at : artifacts]
+[2024-12-08 23:47:24,377: INFO: common:created dir at : artifacts\training]
+[2024-12-09 00:01:28,295: INFO: main:>>stage Training completed <<<<<<<<<]
+[2024-12-09 00:01:28,299: INFO: main:>>>>>> stage Model evaluation started <<<<<<<]
+[2024-12-09 00:01:28,318: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:01:28,325: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:01:28,333: INFO: common:created dir at : artifacts]
+[2024-12-09 00:04:28,408: INFO: common:json file is saved at score.json]
+[2024-12-09 00:04:32,090: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-12-09 00:04:33,309: INFO: builder_impl:Assets written to: C:\Users\ankit\AppData\Local\Temp\tmpwptzydne\model\data\model\assets]
+[2024-12-09 00:05:12,877: ERROR: main:No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 59, in <module>
+    obj.main()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    evaluation.log_into_mlflow()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\model_evaluation.py", line 75, in log_into_mlflow
+    mlflow.keras.log_model(self.model,"model")
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\dir_util.py", line 155, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\dir_util.py", line 197, in _copy_one
+    file_util.copy_file(
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-12-09 00:06:38,085: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:06:38,128: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:06:38,144: INFO: common:created dir at : artifacts]
+[2024-12-09 00:10:26,811: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-09 00:10:26,825: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:10:26,828: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:10:26,830: INFO: common:created dir at : artifacts]
+[2024-12-09 00:10:26,832: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 00:10:26,834: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 00:11:17,174: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 00:11:25,857: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-09 00:11:25,857: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 00:11:25,857: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:11:25,870: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:11:25,870: INFO: common:created dir at : artifacts]
+[2024-12-09 00:11:25,870: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 00:11:27,296: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 00:11:28,792: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 00:11:28,792: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-09 00:11:28,802: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:11:28,825: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:11:28,825: INFO: common:created dir at : artifacts]
+[2024-12-09 00:11:28,830: INFO: common:created dir at : artifacts\training]
+[2024-12-09 00:25:47,023: INFO: main:>>stage Training completed <<<<<<<<<]
+[2024-12-09 00:25:47,031: INFO: main:>>>>>> stage Model evaluation started <<<<<<<]
+[2024-12-09 00:25:47,057: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:25:47,063: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:25:47,071: INFO: common:created dir at : artifacts]
+[2024-12-09 00:30:19,142: INFO: common:json file is saved at score.json]
+[2024-12-09 00:30:22,724: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-12-09 00:30:24,289: INFO: builder_impl:Assets written to: C:\Users\ankit\AppData\Local\Temp\tmp4_ug34en\model\data\model\assets]
+[2024-12-09 00:31:13,602: ERROR: main:No module named 'distutils._modified']
+Traceback (most recent call last):
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\main.py", line 59, in <module>
+    obj.main()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\pipeline\stage_04_model_evaluation.py", line 16, in main
+    evaluation.log_into_mlflow()
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\components\model_evaluation.py", line 75, in log_into_mlflow
+    mlflow.keras.log_model(self.model,"model")
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\models\model.py", line 552, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\fluent.py", line 817, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\client.py", line 1069, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 448, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\mlflow\store\artifact\local_artifact_repo.py", line 58, in log_artifacts
+    dir_util.copy_tree(src=local_dir, dst=artifact_dir, preserve_mode=0, preserve_times=0)
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\dir_util.py", line 150, in copy_tree
+    return list(itertools.chain.from_iterable(map(copy_one, names)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\dir_util.py", line 192, in _copy_one
+    file_util.copy_file(
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\setuptools\_distutils\file_util.py", line 104, in copy_file
+    from distutils._modified import newer
+ModuleNotFoundError: No module named 'distutils._modified'
+[2024-12-09 00:32:10,501: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 00:32:10,602: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 00:32:10,611: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 00:33:41,770: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 00:33:41,791: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 00:33:41,801: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 00:34:12,421: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 00:34:12,430: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 00:34:12,434: INFO: common:created dir at : artifacts]
+[2024-12-09 00:40:57,474: INFO: common:json file is saved at score.json]
+[2024-12-09 17:30:03,653: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 17:30:03,659: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 17:30:03,662: INFO: common:created dir at : artifacts]
+[2024-12-09 17:32:44,224: INFO: common:json file is saved at score.json]
+[2024-12-09 17:40:02,796: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 17:40:02,819: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 17:40:02,823: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 17:49:44,389: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 17:49:44,404: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 17:49:44,404: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 17:51:01,035: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 17:51:01,053: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 17:51:01,063: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 17:53:42,999: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 17:53:43,014: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 17:53:43,020: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 17:59:17,799: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 17:59:17,818: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 17:59:17,835: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 18:05:20,077: INFO: _client:HTTP Request: GET https://dagshub.com/api/v1/repos/2654Ankit/Kidney-Tumor-Classifier "HTTP/1.1 200 OK"]
+[2024-12-09 18:05:20,088: INFO: helpers:Initialized MLflow to track repo "2654Ankit/Kidney-Tumor-Classifier"]
+[2024-12-09 18:05:20,094: INFO: helpers:Repository 2654Ankit/Kidney-Tumor-Classifier initialized!]
+[2024-12-09 18:05:38,937: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:05:38,948: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:05:38,953: INFO: common:created dir at : artifacts]
+[2024-12-09 18:08:57,615: INFO: common:json file is saved at score.json]
+[2024-12-09 18:09:03,864: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-12-09 18:09:04,850: INFO: builder_impl:Assets written to: C:\Users\ankit\AppData\Local\Temp\tmpw4yi0snu\model\data\model\assets]
+[2024-12-09 18:12:51,069: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-09 18:12:51,078: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:12:51,078: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:12:51,078: INFO: common:created dir at : artifacts]
+[2024-12-09 18:12:51,078: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 18:12:51,078: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 18:13:39,289: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 18:13:43,201: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-09 18:13:43,201: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 18:13:43,206: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:13:43,210: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:13:43,213: INFO: common:created dir at : artifacts]
+[2024-12-09 18:13:43,213: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 18:13:44,075: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 18:13:44,386: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 18:13:44,386: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-09 18:13:44,386: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:13:44,386: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:13:44,386: INFO: common:created dir at : artifacts]
+[2024-12-09 18:13:44,386: INFO: common:created dir at : artifacts\training]
+[2024-12-09 18:25:11,047: INFO: main:>>stage Training completed <<<<<<<<<]
+[2024-12-09 18:25:11,047: INFO: main:>>>>>> stage Model evaluation started <<<<<<<]
+[2024-12-09 18:25:11,047: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:25:11,063: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:25:11,063: INFO: common:created dir at : artifacts]
+[2024-12-09 18:28:40,373: INFO: common:json file is saved at score.json]
+[2024-12-09 18:28:43,977: WARNING: save:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-12-09 18:28:44,915: INFO: builder_impl:Assets written to: C:\Users\ankit\AppData\Local\Temp\tmp4izdh4mu\model\data\model\assets]
+[2024-12-09 18:29:14,722: INFO: main:>>stage Model evaluation completed <<<<<<<<<]
+[2024-12-09 18:44:49,867: INFO: stage_01_data_ingestion:>>>>>> stage Data ingestion stage started <<<<<<<]
+[2024-12-09 18:44:49,867: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:44:49,876: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:44:49,880: INFO: common:created dir at : artifacts]
+[2024-12-09 18:44:49,880: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 18:44:49,884: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 18:45:47,259: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 18:45:56,302: INFO: stage_01_data_ingestion:>>stage Data ingestion stage completed <<<<<<<<<]
+[2024-12-09 18:46:36,947: INFO: stage_02_prepare_base_model:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 18:46:36,947: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 18:46:36,947: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 18:46:36,947: INFO: common:created dir at : artifacts]
+[2024-12-09 18:46:36,947: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 18:46:37,753: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 18:46:38,118: INFO: stage_02_prepare_base_model:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 19:10:55,632: INFO: stage_01_data_ingestion:>>>>>> stage Data ingestion stage started <<<<<<<]
+[2024-12-09 19:10:55,638: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 19:10:55,642: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 19:10:55,644: INFO: common:created dir at : artifacts]
+[2024-12-09 19:10:55,644: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 19:10:55,644: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 19:12:06,618: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 19:12:09,917: INFO: stage_01_data_ingestion:>>stage Data ingestion stage completed <<<<<<<<<]
+[2024-12-09 19:12:45,102: INFO: stage_02_prepare_base_model:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 19:12:45,112: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 19:12:45,112: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 19:12:45,112: INFO: common:created dir at : artifacts]
+[2024-12-09 19:12:45,112: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 19:12:45,983: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 19:12:46,399: INFO: stage_02_prepare_base_model:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 19:22:11,160: INFO: stage_01_data_ingestion:>>>>>> stage Data ingestion stage started <<<<<<<]
+[2024-12-09 19:22:11,160: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 19:22:11,164: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 19:22:11,167: INFO: common:created dir at : artifacts]
+[2024-12-09 19:22:11,168: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 19:22:11,169: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 19:23:10,509: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 19:23:14,749: INFO: stage_01_data_ingestion:>>stage Data ingestion stage completed <<<<<<<<<]
+[2024-12-09 19:23:50,753: INFO: stage_02_prepare_base_model:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 19:23:50,755: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 19:23:50,755: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 19:23:50,755: INFO: common:created dir at : artifacts]
+[2024-12-09 19:23:50,755: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 19:23:51,590: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 19:23:52,034: INFO: stage_02_prepare_base_model:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 19:24:52,511: INFO: stage_03_model_training:>>>>>> stage Training started <<<<<<<]
+[2024-12-09 19:24:52,512: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 19:24:52,512: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 19:24:52,512: INFO: common:created dir at : artifacts]
+[2024-12-09 19:24:52,520: INFO: common:created dir at : artifacts\training]
+[2024-12-09 19:33:54,712: INFO: stage_03_model_training:>>stage Training completed <<<<<<<<<]
+[2024-12-09 19:34:16,044: INFO: stage_04_model_evaluation:>>>>>> stage Model evaluation started <<<<<<<]
+[2024-12-09 19:34:16,044: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 19:34:16,044: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 19:34:16,044: INFO: common:created dir at : artifacts]
+[2024-12-09 19:36:23,700: INFO: common:json file is saved at score.json]
+[2024-12-09 19:36:23,701: INFO: common:json file is saved at score.json]
+[2024-12-09 19:36:23,701: INFO: stage_04_model_evaluation:>>stage Model evaluation completed <<<<<<<<<]

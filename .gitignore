@@ -1,2 +1,4 @@
 artifacts/*
 research/*
+dvc.lock
+.dvcignore
