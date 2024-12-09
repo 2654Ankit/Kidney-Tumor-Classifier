@@ -618,3 +618,233 @@ ModuleNotFoundError: No module named 'distutils._modified'
 [2024-12-09 19:36:23,700: INFO: common:json file is saved at score.json]
 [2024-12-09 19:36:23,701: INFO: common:json file is saved at score.json]
 [2024-12-09 19:36:23,701: INFO: stage_04_model_evaluation:>>stage Model evaluation completed <<<<<<<<<]
+[2024-12-09 21:08:06,560: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:08:06,560: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 21:08:30,363: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:08:30] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:10:39,834: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:10:39] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-12-09 21:13:38,393: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:13:38,393: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 21:13:47,339: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:13:47] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:14:01,614: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:14:01] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-12-09 21:28:04,142: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:28:04,145: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 21:28:13,699: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:28:13] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:28:30,375: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:28:30] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-12-09 21:29:17,243: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:29:17,248: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 21:29:21,270: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:29:21] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:29:30,724: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:29:30] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-12-09 21:29:55,954: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:29:55] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:37:37,368: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-09 21:37:37,376: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 21:37:37,378: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 21:37:37,378: INFO: common:created dir at : artifacts]
+[2024-12-09 21:37:37,384: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 21:37:37,384: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 21:38:14,602: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:38:14,602: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 21:38:19,389: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:38:19] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:38:26,785: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 21:38:33,446: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-09 21:38:33,448: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 21:38:33,457: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 21:38:33,479: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 21:38:33,484: INFO: common:created dir at : artifacts]
+[2024-12-09 21:38:33,485: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 21:38:35,468: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 21:38:36,654: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 21:38:36,654: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-09 21:38:36,668: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 21:38:36,692: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 21:38:36,694: INFO: common:created dir at : artifacts]
+[2024-12-09 21:38:36,728: INFO: common:created dir at : artifacts\training]
+[2024-12-09 21:39:34,134: INFO: main:>>>>>> stage Data ingestion pipeline started <<<<<<<]
+[2024-12-09 21:39:34,176: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 21:39:34,192: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 21:39:34,202: INFO: common:created dir at : artifacts]
+[2024-12-09 21:39:34,206: INFO: common:created dir at : artifacts/data_ingestion]
+[2024-12-09 21:39:34,214: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 21:40:23,145: INFO: data_ingestion:Downloading data from https://drive.google.com/file/d/1BP1OErq_xkAHNtI9Uqxl9Vr_UkDXWQz4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-09 21:40:34,912: INFO: main:>>stage Data ingestion pipeline completed <<<<<<<<<]
+[2024-12-09 21:40:34,914: INFO: main:>>>>>> stage Prepare base model started <<<<<<<]
+[2024-12-09 21:40:34,964: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 21:40:34,983: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 21:40:34,996: INFO: common:created dir at : artifacts]
+[2024-12-09 21:40:35,014: INFO: common:created dir at : artifacts/prepare_base_model]
+[2024-12-09 21:40:37,738: WARNING: saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-09 21:40:39,004: INFO: main:>>stage Prepare base model completed <<<<<<<<<]
+[2024-12-09 21:40:39,007: INFO: main:>>>>>> stage Training started <<<<<<<]
+[2024-12-09 21:40:39,013: INFO: common:yaml file :config\config.yaml loaded successfully]
+[2024-12-09 21:40:39,064: INFO: common:yaml file :params.yaml loaded successfully]
+[2024-12-09 21:40:39,091: INFO: common:created dir at : artifacts]
+[2024-12-09 21:40:39,102: INFO: common:created dir at : artifacts\training]
+[2024-12-09 21:44:07,037: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:44:07,039: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 21:44:16,861: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:44:16] "GET / HTTP/1.1" 200 -]
+[2024-12-09 21:44:32,241: INFO: _internal:127.0.0.1 - - [09/Dec/2024 21:44:32] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-12-09 21:52:49,136: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 21:52:49,154: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 22:09:42,157: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:09:42] "GET / HTTP/1.1" 200 -]
+[2024-12-09 22:09:57,340: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:09:57] "[33mPOST /predict HTTP/1.1[0m" 404 -]
+[2024-12-09 22:15:25,854: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 22:15:25,854: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 22:15:31,285: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:15:31] "GET / HTTP/1.1" 200 -]
+[2024-12-09 22:15:42,511: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\app.py", line 33, in predictRoute
+    decodeImage(image,clApp.filename)
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\utils\common.py", line 139, in decodeImage
+    f.write_through(imgdata)
+    ^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'write_through'
+[2024-12-09 22:15:42,525: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:15:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-09 22:18:35,887: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 22:18:35,889: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 22:18:39,494: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:18:39] "GET / HTTP/1.1" 200 -]
+[2024-12-09 22:18:49,822: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\app.py", line 33, in predictRoute
+    decodeImage(image,clApp.filename)
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\utils\common.py", line 139, in decodeImage
+    f.write_through(imgdata)
+    ^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'write_through'
+[2024-12-09 22:18:49,839: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:18:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-09 22:21:42,121: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 22:21:42,127: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 22:22:12,692: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:22:12] "GET / HTTP/1.1" 200 -]
+[2024-12-09 22:22:24,582: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\app.py", line 33, in predictRoute
+    decodeImage(image,clApp.filename)
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\utils\common.py", line 139, in decodeImage
+    f.write_through(imgdata)
+    ^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'write_through'
+[2024-12-09 22:22:24,583: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:22:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-09 22:26:02,420: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 22:26:02,420: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 22:26:10,789: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:26:10] "GET / HTTP/1.1" 200 -]
+[2024-12-09 22:26:19,338: ERROR: app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI\ML\envs\kidney\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "D:\ML_Projects\End_to_end\Kidney_Tumor_Classifier\Kidney-Tumor-Classifier\app.py", line 33, in predictRoute
+    decodeImage(image,clApp.filename)
+  File "d:\ml_projects\end_to_end\kidney_tumor_classifier\kidney-tumor-classifier\src\Kidney_Disease_Classifier\utils\common.py", line 139, in decodeImage
+    f.write_through(imgdata)
+    ^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'write_through'
+[2024-12-09 22:26:19,349: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:26:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-09 22:27:31,653: INFO: _internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.10.111.248:8080]
+[2024-12-09 22:27:31,653: INFO: _internal:[33mPress CTRL+C to quit[0m]
+[2024-12-09 22:27:42,495: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:27:42] "GET / HTTP/1.1" 200 -]
+[2024-12-09 22:27:57,591: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:27:57] "POST /predict HTTP/1.1" 200 -]
+[2024-12-09 22:28:16,457: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:28:16] "POST /predict HTTP/1.1" 200 -]
+[2024-12-09 22:28:31,453: INFO: _internal:127.0.0.1 - - [09/Dec/2024 22:28:31] "POST /predict HTTP/1.1" 200 -]

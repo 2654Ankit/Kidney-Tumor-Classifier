@@ -134,9 +134,8 @@ def get_size(path:Path) -> str:
 
 def decodeImage(imagestring,fileName):
     imgdata = base64.b64decode(imagestring)
-
     with open(fileName,"wb") as f:
-        f.write_through(imgdata)
+        f.write(imgdata)
         f.close()
 
 
